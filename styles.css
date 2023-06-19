@@ -1,0 +1,150 @@
+.lead {
+  margin-top: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar {
+  font-family: serif, sans-serif;
+
+}
+
+  .navbar.navbar-expand-lg {
+    background-color: #F9F5F6 !important; 
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%;
+  }
+
+  footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+  
+
+.nav-link {
+  margin-right: 10px; 
+}
+
+
+
+.container {
+  font-family:serif;
+font-size: 16px;}
+
+
+b {
+  color: maroon;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.lead:hover {
+  transform: scale(1.1);
+}
+
+
+.container:hover img {
+  transform: scale(1.1);
+}
+
+
+.container:hover b {
+  transform: scale(1.1);
+}
+
+
+#carouselExampleAutoplaying {
+  max-width: 800px;
+  margin: 0 auto; 
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+
+#rotc {
+  position: relative;
+  overflow: hidden;
+  
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.carousel-inner {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+div.px-4.py-5.my-5.text-center {
+
+  background-color: #F9F5F6;
+}
+
+a.icon-link {
+  color: maroon;
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+#featured-3 {
+  background-color: #F9F5F6;
+  margin-bottom: 15%;
+}
+
+
+.feature {
+  transition: transform 0.3s ease-in-out;
+margin: 0px;}
+
+.feature:hover {
+  transform: scale(1.1);
+}
+
+.feature-icon svg {
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-icon:hover svg {
+  transform: scale(1.1);
+}
+
+#featured-3 {
+  background-color: #F9F5F6;
+  margin-bottom: 15%;
+}
+
+.py-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.gy-3 > [class*='col-'] {
+  margin-bottom: 5px;
+}
+.btn:hover {
+  background-color: maroon;
+  color: white;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.btn-animate {
+  animation: pulse 2s infinite;
+  
+}
+.btn-text-white {
+  color: white;}
+
+  @media (min-width: 1200px) {
+    .lead {
+      padding-top: 10px;
+      margin-top: 10px;
+    }
+  }
